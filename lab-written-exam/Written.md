@@ -258,3 +258,45 @@ A **wireless router** is used to send and receive data.
 - Users can move freely  
 - Can connect many devices  
 - Saves time and cost  
+
+### Why is `192.168.1.0` used in static routing (why 0 at the end)?
+
+**Answer:**
+
+`192.168.1.0` is a **network address**, not a host address.
+
+- In a subnet like **192.168.1.0/24**, the last part (`.0`) represents the **network ID**  
+- It identifies the whole network, not a specific device  
+- Routers use the **network address** to route traffic to that entire network  
+
+**Example:**
+- Network: `192.168.1.0`  
+- Usable IPs: `192.168.1.1 – 192.168.1.254`  
+- Broadcast: `192.168.1.255`  
+
+So, we use `.0` because it represents the **entire network**.
+
+---
+
+### Which is better: Static Routing or RIP? Why?
+
+**Answer:**
+
+It depends on the network size and requirement.
+
+#### Static Routing is better when:
+- The network is **small**  
+- Routes do not change often  
+- **Security** is important  
+- You want **full control**  
+- You want to save **bandwidth**
+
+#### RIP is better when:
+- The network is **large**  
+- Routes change frequently  
+- You want **automatic updates**  
+- Easy to manage without manual configuration  
+
+#### Conclusion:
+- **Static routing** is better for **small and secure networks**  
+- **RIP** is better for **large and dynamic networks**
