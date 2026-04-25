@@ -14,7 +14,7 @@ CSE 320 contains my notes, class materials, and lab work as I learn **Computer N
 | 04 | [15-Jan-26](./notes)             | [-](./experiment-01) |
 | 04 | [20-Jan-26](./notes)             | [-](./experiment-01) |
 
-Updated: 10-April-2026
+Updated: 25-April-2026
 
 ## Course Info
 
